@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-xs-12">
+        <form>
+            <div class="row">
+                <div class="col-sm-5 form-group">
+
+                    <label for="addInput" class="form-label"> Ingredient </label>
+                    <input type="text" id="addInput" class="form-control" #item>
+
+                </div>
+                <div class="col-sm-2 form-group">
+                    <label for="addQuantity" class="form-label"> Quantity </label>
+                    <input type="text" id="addQuantity" class="form-control" #quant>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <button class="btn btn-success" (click)="onAdd()">Add</button>
+                    <button class="btn btn-danger">Delete</button>
+                    <button class="btn btn-primary  ">Clear</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
