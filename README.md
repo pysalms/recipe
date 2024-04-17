@@ -1,1 +1,1 @@
-# recipe
+# recipe details in dev branch
