@@ -1,0 +1,9 @@
+<app-header (headerSelected)="checkHeader($event)"> </app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-receipes *ngIf=" (loadedFeature === 'recipe' ? true : false)"></app-receipes>
+      <app-shopping-list *ngIf=" (loadedFeature !== 'recipe' ? true : false)"></app-shopping-list>
+    </div>
+  </div>
+</div>
